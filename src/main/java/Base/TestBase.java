@@ -22,7 +22,7 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().deleteAllCookies();
 		driver.get(ReadData.readPropertyFile("url"));
-		
+		System.out.println(" Chrome browser will open and url enter");
 		//driver.get("https://www.saucedemo.com/");
 		
 		
